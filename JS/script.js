@@ -25,3 +25,5 @@ if (passengerAge <= 18) {
 }
 
 console.log (ticketFinalPrice);
+
+document.getElementById ("biglietto").innerHTML = `Il costo del biglietto è ${ticketFinalPrice}€`
